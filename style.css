@@ -175,7 +175,7 @@ body {
   color: #eee;
 }
 
-.header--banner {
+.header-nav {
   margin: 0 2rem;
   padding: 3rem 0;
 
@@ -190,7 +190,7 @@ body {
   height: 5rem;
 }
 
-.header-banner-nav ul {
+.header-nav ul {
   display: flex;
   gap: 3rem;
 
@@ -199,13 +199,13 @@ body {
   padding: 0px;
 }
 
-.header-banner-nav ul li a {
+.header-nav ul li a {
   color: #e0e1dd;
   font-weight: 800;
   text-decoration: none;
 }
 
-.header-banner-nav ul li a:hover {
+.header-nav ul li a:hover {
   text-decoration: underline;
 }
 
