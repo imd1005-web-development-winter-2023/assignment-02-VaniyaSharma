@@ -10,7 +10,7 @@ body {
   height:110px;
 
   font-weight: 700;
-  font-size: 40px;
+  font-size: 10px;
   
 }
 
@@ -23,10 +23,8 @@ body {
   display: grid;
   gap: 3rem;
 
-  grid-template-columns: 600px 1fr 1.45fr repeat(3, 1fr);
-
   margin: 0px;
-  padding-right: 2rem;
+  padding: 2rem;
   align-items: center;
 }
 
