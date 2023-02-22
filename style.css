@@ -186,11 +186,11 @@ body {
   align-items: center;
 }
 
-.header--banner--logo {
+.header-commpany-logo {
   height: 5rem;
 }
 
-.header--banner--nav ul {
+.header-banner-nav ul {
   display: flex;
   gap: 3rem;
 
