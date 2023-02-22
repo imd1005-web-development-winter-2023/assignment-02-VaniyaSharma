@@ -8,20 +8,10 @@ body {
   background-color:#EDCCCE;
   color:#2D4558;
   height:110px;
+
+  font-weight: 700;
+  font-size: 40px;
   
-}
-
-.header-nav {
-  margin: 0 2rem;
-  padding: 3rem 0;
-
-  display: flex;
-
-  flex-direction: row;
-  flex-wrap:wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 10px;
 }
 
 .header-commpany-logo {
@@ -30,13 +20,18 @@ body {
 
 .header-nav ul {
   height: 110px;
-  display: flex;
+  display: grid;
   gap: 3rem;
 
-  list-style-type: none;
+  grid-template-columns: 600px 1fr 1.45fr repeat(3, 1fr);
+
   margin: 0px;
-  padding: 2rem;
+  padding-right: 2rem;
   align-items: center;
+}
+
+.heaer-nav ul li{
+  align-self: center;
 }
 
 .header-nav ul li a {
