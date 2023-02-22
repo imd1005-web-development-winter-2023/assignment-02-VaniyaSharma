@@ -199,13 +199,13 @@ body {
   padding: 0px;
 }
 
-.header--banner--nav ul li a {
+.header-banner-nav ul li a {
   color: #e0e1dd;
   font-weight: 800;
   text-decoration: none;
 }
 
-.header--banner--nav ul li a:hover {
+.header-banner-nav ul li a:hover {
   text-decoration: underline;
 }
 
