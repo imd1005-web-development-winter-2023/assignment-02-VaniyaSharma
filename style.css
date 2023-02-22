@@ -6,7 +6,7 @@ body {
 /****** Header *******/
 .header {
   background-color:#EDCCCE;
-  color: #eee;
+  color:#2D4558;
 }
 
 .header-nav {
@@ -31,12 +31,14 @@ body {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  align-items: center;
 }
 
 .header-nav ul li a {
-  color: #e0e1dd;
-  font-weight: 800;
+  color:#2D4558;
+  font-weight: 400;
   text-decoration: none;
+  
 }
 
 .header-nav ul li a:hover {
