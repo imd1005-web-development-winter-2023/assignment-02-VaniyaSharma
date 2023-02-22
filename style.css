@@ -6,7 +6,9 @@ body {
 /****** Header *******/
 .header {
   background-color:#EDCCCE;
-  width: 20px;
+  color:#2D4558;
+  padding: 10px 20px;
+  
 }
 
 .header-nav {
@@ -16,9 +18,10 @@ body {
   display: flex;
 
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap:wrap;
   justify-content: space-between;
   align-items: center;
+  width: 10px;
 }
 
 .header-commpany-logo {
@@ -45,6 +48,9 @@ body {
 .header-nav ul li a:hover {
   text-decoration: underline;
 }
+
+
+
 
 /****** Screen reader text *******/
 .sr-only {
