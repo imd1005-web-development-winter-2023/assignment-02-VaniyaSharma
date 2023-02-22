@@ -20,14 +20,12 @@ body {
 
 .header-nav ul {
   height: 110px;
-  display: grid;
+  display: flex;
+  justify-content: flex-end;
   gap: 3rem;
-
-  grid-template-columns: 600px 1fr 1.45fr repeat(3, 1fr);
-
-  padding: 2rem;
-  grid-row-start: 2rem;
-  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .heaer-nav ul li{
