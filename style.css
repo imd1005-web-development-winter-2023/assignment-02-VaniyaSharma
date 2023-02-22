@@ -3,8 +3,16 @@ body {
   background-color: #fff;
 }
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #EDCCCE;
+}
+
 /****** Button classes *******/
-.btn-primary {
+/*.btn-primary {
   background-color: #2d5c8a;
   padding: 1.5rem 2rem;
   color: #e0e1dd;
@@ -36,7 +44,7 @@ body {
 }
 
 /****** Container *******/
-.container-large {
+/*.container-large {
   max-width: 900px;
   margin: 0 auto;
 }
@@ -47,7 +55,7 @@ body {
 }
 
 /****** Blog *******/
-.blog {
+/*.blog {
   background-color: #fff;
   padding: 6rem 0px;
 }
@@ -76,7 +84,7 @@ body {
 }
 
 /****** Newsletter *******/
-.newsletter {
+/*.newsletter {
   background-color: #fff;
 }
 
@@ -106,7 +114,7 @@ body {
 }
 
 /****** Testimonial *******/
-.testimonial {
+/*.testimonial {
   background-color: #9faab8;
   padding: 8rem 0;
 }
@@ -123,7 +131,7 @@ body {
 }
 
 /****** Footer *******/
-.footer {
+/*.footer {
   background-color: #0d1b2a;
   padding: 5rem;
   text-align: center;
@@ -132,7 +140,7 @@ body {
 }
 
 /****** Hero *******/
-.hero {
+/*.hero {
   background-color: #0d1b2a;
   color: #fff;
 }
@@ -167,7 +175,7 @@ body {
 .hero--flexbox img {
   width: 45%;
   border-radius: 15px;
-}
+}*/
 
 /****** Header *******/
 .header {
