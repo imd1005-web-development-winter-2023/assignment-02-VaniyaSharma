@@ -29,12 +29,13 @@ body {
 }
 
 .header-nav ul {
+  height: 110px;
   display: flex;
   gap: 3rem;
 
   list-style-type: none;
   margin: 0px;
-  padding: 0px;
+  padding: 2rem;
   align-items: center;
 }
 
