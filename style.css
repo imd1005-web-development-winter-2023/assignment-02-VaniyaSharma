@@ -39,6 +39,15 @@ body {
   text-decoration: underline;
 }
 
+/*Nav-Logo*/
+.header-company-logo{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+  
+  
 
 
 
