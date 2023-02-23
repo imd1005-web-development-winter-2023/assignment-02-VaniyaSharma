@@ -49,27 +49,15 @@ body {
   }
 
   /*Hero section*/
-  .hero-container{
-    position: relative;
-    display: inline-block;
-  }
+ .hero-container{
+  width: 100%;
+  height: 600px;
+  background-image: url('./imager/hero.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+ }
 
-  .image-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color:rgba(255,255,255,0.8);
-    padding: 10px;
-  }
-
-  img{
-    display: block;
-    max-width: 100%;
-    height:auto;
-  }
-
-  
 
 /****** Screen reader text *******/
 .sr-only {
