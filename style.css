@@ -58,7 +58,18 @@ body {
   color:white;
  }
 
- 
+ .hero-text{
+  display: flex;
+  width: 50%;
+  height: 650px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  letter-spacing: 0.3rem;
+ }
+
 
 
 /****** Screen reader text *******/
