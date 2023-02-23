@@ -20,7 +20,8 @@ body {
   justify-content: flex-end;
   gap: 3rem;
   list-style-type: none;
-  margin: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
   padding: 0px;
 }
 
@@ -46,10 +47,6 @@ body {
   margin-top: 10px;
   margin-left: 20px;
   }
-  
-  
-
-
 
 /****** Screen reader text *******/
 .sr-only {
