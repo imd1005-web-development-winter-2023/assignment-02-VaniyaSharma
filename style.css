@@ -27,6 +27,7 @@ body {
 
 .heaer-nav ul li{
   align-self: center;
+  margin-right: 10px;
 }
 
 .header-nav ul li a {
