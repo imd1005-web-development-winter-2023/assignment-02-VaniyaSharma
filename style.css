@@ -108,7 +108,7 @@ body {
 }
 
 .line-copy-container{
-  background-image: url('./images/line copy.png');
+  background-image: url('./images/line.png');
   background-size: 100% 100%;
   display: flex;
   justify-content: space-around;
@@ -118,14 +118,11 @@ body {
 }
 
 .Intro-container{
-  width: 100%;
-  overflow: hidden;
+flex-direction: column;
 }
 
-.mia-photo{
-  background-image: url('./images/mia-photo.png');
-  background-size: 100% 100%;
-  float: left;
+.intro-photo{
+  display: flex;
   width: 40%;
   height: auto;
   margin-top: 20px;
@@ -135,13 +132,67 @@ body {
 
 }
 
-.T-intro{
-  padding-left: 20px;
+.Intro-text h2{
+  width: 90%;
+  padding-left: 900px;
+  margin-bottom: 10px;
+  margin-top: 95px;
+  color:#2D4558;
+}
+
+.Intro-text p{
+  width: 95%;
+  padding-left: 900px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+
+}
+
+.thin-line-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-top: 95px;
+}
+
+.R-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#2D4558;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.Intro-para{
-  padding-left: 20px;
-  margin-bottom: 10px;
-
+.thin-line2-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-bottom: 20px;
 }
+
+.R-subheading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#2D4558;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.thin-line2-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-bottom: 20px;
+}
+
