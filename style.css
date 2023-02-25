@@ -103,6 +103,16 @@ body {
   justify-content: space-around;
   width: 100%;
   height:20px;
-  padding-top: 50px;
+  margin-top: 20px;
 
+}
+
+.line-copy-container{
+  background-image: url('./images/line copy.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 10px;
+  margin-top:10px;
 }
