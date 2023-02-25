@@ -94,3 +94,8 @@ body {
   white-space: nowrap;
   border-width: 0;
 }
+
+.line{       
+    display: flex;
+    justify-content: space-around;
+}
