@@ -11,6 +11,17 @@ body {
   height:109px;
 }
 
+/*Nav-Logo*/
+.header-company-logo{
+  display: flex;
+  justify-content: flex-start;
+  width: 110px;
+  height: 110px;
+  margin-right: auto;
+  margin-left: 100px;
+  margin-bottom: 5px;
+  }
+
 .header-nav ul {
   height: 110px;
   display: flex;
@@ -18,12 +29,12 @@ body {
   gap: 3rem;
   list-style-type: none;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-right: 500px;
   padding: 0px;
   
 }
 
-.heaer-nav ul li{
+.header-nav ul li{
   align-self: center;
   margin-right: 10px;
   text-align: center;
@@ -39,16 +50,6 @@ body {
 .header-nav ul li a:hover {
   text-decoration: underline;
 }
-
-/*Nav-Logo*/
-.header-company-logo{
-  display: flex;
-  justify-content: flex-start;
-  width: 110px;
-  height: 110px;
-  margin-right: auto;
-  margin-left: 10px;
-  }
 
   /*Hero section*/
  .hero-container{
