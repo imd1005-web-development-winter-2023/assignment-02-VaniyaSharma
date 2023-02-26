@@ -416,7 +416,6 @@ body {
   display: flex;
   height: 30%;
   width: 100%;
-  /*background-color: green;*/
   padding-left: 1110px;
   justify-content: left;
   text-align: center;
@@ -434,7 +433,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 70px;
   margin-right: 900px;
 
 }
@@ -451,14 +450,18 @@ body {
 }
 
 .footer-banner-nav {
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
   list-style-type: none;
   font-family:'futura-pt';
   font-size:35px;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-right: 40px;
   padding-left: 40px;
   padding-bottom: 15px;
   text-align: center;
+  color: #2D4558;
 
 }
 
@@ -469,6 +472,7 @@ body {
   font-size: 20px;
   text-align: auto;
   line-height: 40px;
+  color: #2D4558;
 }
 
 .nav-item a {
@@ -498,5 +502,10 @@ body {
   display: flex;
   flex-direction: row;
   margin-right: 500px;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
 }
 
