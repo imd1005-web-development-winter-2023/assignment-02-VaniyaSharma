@@ -1,3 +1,539 @@
-/*
-  CSS File
-*/
+@font-face {
+  font-family: 'segoeui';
+  src: url('./Fonts/segoeui.ttf') format('truetype');
+
+  font-family: 'monbaiti';
+  src: url('./Fonts/monbaiti_0.ttf') format('truetype');
+
+  font-family: 'palatino-linotype';
+  src: url('./Fonts/palatino-linotype.ttf') format('truetype');
+
+  font-family: 'futura-pt';
+  src: url('./Fonts/futura-pt-heavy.otf') format('truetype');
+
+}
+
+
+body {
+  background-color: #fff;
+}
+
+/****** Header *******/
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color:#EDCCCE;
+  height:109px;
+}
+
+/*Nav-Logo*/
+.header-company-logo{
+  display: flex;
+  justify-content: flex-start;
+  width: 120px;
+  height: 110px;
+  margin-right: auto;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  }
+
+.header-nav ul {
+  height: 110px;
+  display: flex;
+  justify-content: right;
+  gap: 3rem;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-right: 460px;
+  padding: 0px;
+  
+}
+
+.header-nav ul li{
+  align-self: center;
+  margin-right: 10px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 21px;
+}
+
+.header-nav ul li a {
+  color:#2D4558;
+  font-weight: 400;
+  text-decoration: none;
+  
+}
+
+.header-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+  /*Hero section*/
+ .hero-container{
+  width: 100%;
+  height: 600px;
+  background-image: url('./images/hero.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color:white;
+ }
+
+ .hero-text{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  flex-direction: row;
+ }
+
+
+ .image-text{
+  font-family:'palatino-linotype';
+  font-style: italic;
+  font-weight: bold;
+  font-size:76px;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 0.3rem;
+  margin-left: 300px;
+  margin-top: 200px;
+  margin-right: 300px;
+  margin-bottom: 20px;
+  background-color: rgb(red, green, blue);
+  backdrop-filter: blur(10px);
+ }
+
+
+
+
+/****** Screen reader text *******/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.line-container{
+
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:20px;
+  margin-top: 20px;
+
+}
+
+.line-copy-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 10px;
+  margin-top:10px;
+}
+
+.Intro-text {
+  display: flex;
+  margin-left: 800px;
+  margin-top: 6rem;
+  flex-direction: column;
+  width: 40%;
+  height: 17.4rem;
+}
+
+
+.Intro-text  h2{
+ display: flex;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 5px;
+  margin-top: 70px;
+  justify-content: left;
+  font-family: 'futura-pt';
+  font-size: 70px;
+  color: #2D4558;
+
+}
+
+.Intro-text p{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+  font-family: 'monobaiti';
+  font-size: 25px;
+  line-height: 2.9rem;
+
+}
+
+.intro-photo{
+  display: flex;
+  width: 34%;
+  margin-top:-18rem;
+  margin-right: auto;
+  margin-left: 150px;
+  height: 40rem;
+  border-radius: 50%;
+
+}
+.thin-line-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-top: 95px;
+}
+
+.R-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#2D4558;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'futura-pt';
+  font-size: 70px;
+}
+
+.R-heading a{
+  color:#2D4558;
+  text-decoration: none;
+}
+
+.R-heading a:hover{
+  text-decoration: underline;
+}
+
+.thin-line2-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-bottom: 20px;
+}
+
+.R-subheading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#2D4558;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'futura-pt';
+  font-size: 32px;
+}
+
+.thin-line3-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-bottom: 20px;
+}
+
+.food-photos{
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 60px;
+  
+}
+
+.food-photos img{
+  width: 100%;
+}
+
+.food-photos p{
+  color: #2D4558;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'futura-pt';
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.thin-line4-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-bottom: 20px;
+}
+
+.B-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#2D4558;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'futura-pt';
+  font-size: 70px;
+}
+
+.B-heading a{
+  color:#2D4558;
+  text-decoration: none;
+}
+
+.B-heading a:hover{
+  text-decoration: underline;
+}
+
+.thin-line5-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-bottom: 20px;
+}
+
+.blog-container{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Blog-text {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 6rem;
+  flex-direction: column;
+  width: 40%;
+  height: 17.4rem;
+}
+
+.Blog-text h3{
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 20px;
+  margin-top: 200px;
+  justify-content: left;
+  text-align: center;
+  font-family: 'monbaiti';
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.blog-post {
+  display: flex;
+  width:50%;
+  margin-top:-25rem;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  height: 40rem;
+  
+}
+
+.blog-button{
+
+  display: flex;
+  height: 30%;
+  width: 100%;
+  /*background-color: green;*/
+  padding-left: 250px;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  font-family: 'futura-pt';
+  margin-top: 50px;
+
+}
+
+.Exception-hover-button {
+  margin-top: 30px;
+  height: 90px;
+  width: 260px;
+  border: 0;
+  background-color: white;
+  color: black;
+  border-radius: 40px;
+  font-family:'Segoe UI';
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.thin-line6-container{
+  background-image: url('./images/line.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:2px;
+  margin-bottom: 20px;
+}
+
+.connnect-containr{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-text {
+  display: flex;
+  margin-left: 800px;
+  margin-top: 6rem;
+  flex-direction: column;
+  width: 40%;
+  height: 17.4rem;
+}
+
+.contact-text h3{
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 10px;
+  margin-top:200px;
+  justify-content: right;
+  text-align: center;
+  font-family: 'monbaiti';
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.contact-post {
+  display: flex;
+  width:50%;
+  margin-top:-22rem;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-bottom:28px;
+  height: 40rem;
+  
+}
+
+.contact-button{
+
+  display: flex;
+  height: 30%;
+  width: 100%;
+  padding-left: 1110px;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  font-family: 'futura-pt';
+  margin-top: 10px;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color:#EDCCCE;
+  height:350px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-right: 900px;
+
+}
+
+.site map{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.socials{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-banner-nav {
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+  font-family:'futura-pt';
+  font-size:35px;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #2D4558;
+
+}
+
+.nav-item{
+  list-style-type: none;
+  font-family:'Segoe UI';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: auto;
+  line-height: 40px;
+  color: #2D4558;
+}
+
+.nav-item a {
+  color:#2D4558;
+  font-weight: 400;
+  text-decoration: none;
+  
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo{
+
+  display: flex;
+  justify-content: flex-start;
+  width: 350px;
+  height:350px;
+  margin-right: auto;
+  margin-left: 300px;
+  margin-bottom: 28px;
+
+}
+
+.footer-text{
+  display: flex;
+  flex-direction: row;
+  margin-right: 500px;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+
+}
+
